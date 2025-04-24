@@ -1,0 +1,75 @@
+
+.bgcontainer{
+    background-image: url("https://zomato-landing-page.netlify.app/Images/Nav.jpg");
+    background-size: cover;
+    padding-bottom: 80px;
+}
+.top-bar{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.app-link{
+    color: white;
+    font-size: 13px;
+    margin-top: 20px;
+}
+.text-1{
+    text-align:center;
+    color: white;
+}
+.logo{
+    font-size: 200px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+.search-bar{
+    width: 70%;
+    margin: auto;
+}
+.cards{
+    margin:40px;
+}
+.card-below{
+    border-radius: 6px;
+    border-style: groove;
+    padding-top: 13px;
+    margin:auto;
+}
+.search-container{
+    background-color:white;
+    width: 70%;
+    height: 50px;
+    max-width: 760px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 7px;
+    color: #000;
+    margin: auto;
+}
+.detectlocation{
+    color: rgb(236, 45, 45);
+    font-size: 22px;
+
+}
+.detectlocation input{
+    border: none;
+    font-size: 15px;
+    width: 190px;
+    outline: none;
+
+}
+.search-item{
+    color: #575151;
+    font-size: 18px;
+}
+.line{
+    padding: 5px;
+}
+.search-item input{
+    border: none;
+    font-size: 15px;
+    width: 190px;
+    outline: none;
+}
