@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SVNIT</title>
+    <link rel="icon" href="C:\Users\lenovo\OneDrive\Desktop\VSCODE\HTML AND CSS\SVNIT\svnit.png" type="image/png">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: url('https://images.unsplash.com/photo-1571260899304-425eee4c7efc?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80') no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
+        }
+
+        header {
+            background-color: rgba(0, 51, 102, 0.9); /* dark blue overlay */
+            padding: 20px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            font-size: 2rem;
+            display: flex;
+            align-items: center;
+        }
+
+        header img.logo {
+            width: 40px;
+            height: 40px;
+            margin-right: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        nav ul li {
+            position: relative;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px 15px;
+            transition: background 0.3s;
+        }
+
+        nav ul li a:hover,
+        nav ul li:hover > a {
+            background-color: #003366;
+            border-radius: 5px;
+        }
+
+        .dropdown {
+            display: none;
+            position: absolute;
+            background-color: #003366;
+            top: 100%;
+            left: 0;
+            border-radius: 5px;
+            padding: 10px 0;
+            z-index: 10;
+        }
+
+        nav ul li:hover .dropdown {
+            display: block;
+        }
+
+        .dropdown a {
+            display: block;
+            padding: 10px 20px;
+            color: #fff;
+        }
+
+        .hero {
+            padding: 100px 40px;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        .hero h2 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+        }
+
+        .section {
+            padding: 60px 40px;
+            background-color: rgba(255, 255, 255, 0.9);
+            color: #000;
+            margin: 20px;
+            border-radius: 10px;
+        }
+
+        .section h3 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        .footer {
+            background-color: #003366;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><img src="C:\Users\lenovo\OneDrive\Desktop\VSCODE\HTML AND CSS\SVNIT\svnit.png" alt="College Logo" class="logo"> SVNIT</h1>
+        <nav>
+            <ul>
+                <li><a href="#academics">Academics</a></li>
+                <li><a href="#student-life">Student Life</a></li>
+                <li>
+                    <a href="#departments">Departments</a>
+                    <div class="dropdown">
+                        <a href="#ai">AI</a>
+                        <a href="#cse">CSE</a>
+                        <a href="#mech">Mechanical</a>
+                        <a href="#civil">Civil</a>
+                        <a href="#fashion">Fashion Designing</a>
+                        <a href="#met">Metallurgy</a>
+                        <a href="#elec">Electrical</a>
+                        <a href="#ece">Electronics</a>
+                        <a href="#mac">MAC</a>
+                    </div>
+                </li>
+                <li><a href="#career">Career Development Cell</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li>
+                    <a href="#more">More</a>
+                    <div class="dropdown">
+                        <a href="#achievements">Achievements</a>
+                        <a href="#admission">Admission</a>
+                        <a href="#fees">Fee Structure</a>
+                        <a href="#scholarships">Scholarships</a>
+                        <a href="#alumni">Alumni</a>
+                        <a href="#events">Events</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Welcome to SARDAR VALLABHBHAI NATIONAL INSTITUTE OF TECHNOLOGY,SURAT</h2>
+        <p>Empowering Education, Shaping Futures</p>
+    </section>
+
+    <section class="section" id="academics">
+        <h3>Academics</h3>
+        <p>Explore our rigorous and flexible academic programs.</p>
+    </section>
+
+    <section class="section" id="student-life">
+        <h3>Student Life</h3>
+        <p>Clubs, sports, and activities that make college life vibrant.</p>
+    </section>
+
+    <section class="section" id="career">
+        <h3>Career Development Cell</h3>
+        <p>Shaping your professional journey with guidance and opportunity.</p>
+    </section>
+
+    <section class="section" id="about">
+        <h3>About Us</h3>
+        <p>Learn more about our mission, history, and values.</p>
+    </section>
+
+    <section class="section" id="contact">
+        <h3>Contact Us</h3>
+        <p>Reach out for queries, support, or collaboration.</p>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 SVNIT. All rights reserved.</p>
+    </footer>
+</body>
+</html>
